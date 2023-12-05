@@ -9,7 +9,7 @@
 // const PORT = process.env.PORT || 8080;
 
 // const dbURI =
-//   "mongodb+srv://buniversity4:Adeel123@cluster0.ojt714p.mongodb.net/QuillQuotient?retryWrites=true&w=majority";
+//   "Mongo Connection String here";
 // mongoose.connect(dbURI,{useNewUrlParser:true,useUnifiedTopology:true})
 //   .then(() => {
 //     console.log("Connected to MongoDB");
