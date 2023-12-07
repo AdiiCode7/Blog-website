@@ -7,12 +7,16 @@ import Home from "./components/MAIN_WEBSITE/Home";
 
 function App() {
   return (
+    // <Home />
     <Router>
       <div>
         <Routes>
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/" element={<SignInPage />} />
-          <Route path="Layout" element={<Layout />} />
+          <Route path="Layout" element={((<Layout />), (<Home />))} />
+          {/* <Route path="Layout" element={<Home />} /> */}
+          <Route path="Home" element={<Home />} />
+          {/* <Route path={["Home", "Layout"]} Component={<Home />} /> */}
         </Routes>
       </div>
     </Router>

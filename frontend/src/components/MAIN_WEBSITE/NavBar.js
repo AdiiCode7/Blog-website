@@ -13,12 +13,12 @@ const NavBar = () => {
 
       {/* Center: Links to Different Pages */}
       <div className="flex gap-4">
-        <a href="/Home" className="text-black hover:text-orange-200">
+        <Link to="/Home" className="text-black hover:text-orange-200">
           Home
-        </a>
-        <a href="/about" className="text-black hover:text-gray-300">
+        </Link>
+        <Link to="/about" className="text-black hover:text-gray-300">
           About
-        </a>
+        </Link>
         <a href="/services" className="text-black hover:text-gray-300">
           Services
         </a>
